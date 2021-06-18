@@ -47,8 +47,6 @@ function Home(props) {
                 </MDBCol>
             </MDBRow>
             
-
-            
         </MDBContainer>
     )
 }
