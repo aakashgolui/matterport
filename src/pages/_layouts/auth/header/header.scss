@@ -1,0 +1,87 @@
+.DashBoard {
+    float: right;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: -13px;
+    .dashboard-menu {
+      float: left;
+    }
+    .dashboard-nav {
+      //padding-top: 52px;
+      font-style: normal;
+      font-weight: 500;
+    }
+    .dashboard-title {
+      margin-bottom: -2rem;
+      padding-left: 80px;
+      font-weight: bold;
+      color: #ffffff;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    .dashboard-second-title {
+      margin-bottom: -2rem;
+      padding-left: 80px;
+      color: #ffffff;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 28px;
+  
+    }
+    .dashboard-header {
+      //padding-top: 30px;
+      display: inline;
+    }
+    .dashboard-nav a {
+      color: black;
+    }
+    .dashboard-nav li :hover  {
+      background-color: lightgray;
+    }
+  
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+      background-color: #eee ;
+      text-decoration: underline;
+      color: #2e2e2e;
+    }
+  
+  }
+  .header_wrapper .DashBoard > .row{
+    position: relative;
+  }
+  .header_wrapper {
+    padding-left: 0 !important;
+    .dashboard-header{
+      position: absolute;
+      height: 100%;
+      .dashboard-title{
+        padding-left: 110px;
+        margin: 0;
+        height: 100%;
+        line-height: 66px;
+      }
+    }
+  }
+  .header_wrapper .DashBoard {
+    margin: 0;
+    padding-right: 0 !important;
+  }
+  
+  @media (min-width:992px) and (max-width:1199px){
+    .header_wrapper .dashboard-header .dashboard-title{
+      padding-left: 20px;
+    }
+  }
+  
+  @media (min-width:768px) and (max-width:991px){
+    .header_wrapper .dashboard-header .dashboard-title{
+      padding-left: 20px;
+    }
+  }
+  
+  @media (min-width:320px) and (max-width:767px){
+    .header_wrapper .dashboard-header .dashboard-title{
+      padding-left: 0px;
+    }
+  }

@@ -1,0 +1,171 @@
+.LoginPage {
+    /* login */
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+  
+    background: #FFFFFF;
+    .left-login-background {
+      width: 35%;
+      height: 711.68px;
+      margin: auto;
+      position: relative;
+        //background-image: url(../../assets/diagram-top-background.svg);
+      //background: #2E5681;
+    }
+  
+    .right-login-background {
+      /* Rectangle 1123 */
+      width: 65%;
+      height: 711.68px;
+      margin: auto auto auto 0px;
+  
+      background: #FFFFFF;
+      box-shadow: 1px 1px 112px rgba(0, 0, 0, 0.12);
+      position: relative;
+    }
+    .login-elipse-icon {
+      /* Ellipse 23 */
+      position: absolute;
+      width: 97.22px;
+      height: 96px;
+      left: 0;
+      top: 50%;
+      margin-left: 5px;
+      border-radius: 50%;
+      z-index: 1;
+      background: #2E5580;
+      border: 8px solid #FFFFFF;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      transform:translate(-50%, -50%);
+    }
+  
+    .login-welcome-text {
+      /* Welcome back */
+      font-style: normal;
+      font-weight: bold;
+      line-height: 30px;
+      color: #000000;
+      margin-bottom: 12px;
+    }
+  
+    .login-validation-error {
+      /* The username or password is incorrect Please try again or contact the project manager */
+      width: 297px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 15px;
+      color: #EB5757;
+      float: left;
+    }
+    .login-api-error {
+      margin-top: 100px;
+    }
+    .login-input {
+      width: 98%;
+      height: 61px;
+      margin:0 0 16px 0;
+      background: #FFFFFF;
+      border: 1px solid #E8E8E8;
+      box-sizing: border-box;
+      border-radius: 10px;
+    }
+    .login-btn {
+      width: 138px;
+      height: 57px;
+      float: left;
+      background: #5B7EA2;
+      border-radius: 10px;
+      color: white;
+      text-transform: capitalize;
+      font-size: 16px;
+      margin-left: 0;
+      font-weight: 600;
+      font-style: normal;
+    }
+    .login-form-row {
+      height: 390px;
+    }
+    .login-form {
+      left: 20%;
+      top: 50%;
+    }
+    .login-btn-text {
+      /* Login */
+      width: 47px;
+      height: 20px;
+  
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      /* identical to box height */
+      color: #FFFFFF;
+    }
+    .login-forgot-password {
+      width: 112px;
+      height: 15px;
+      float: right;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      /* identical to box height */
+      text-decoration-line: underline;
+      color: #5B7EA2;
+    }
+  
+    .login-logo {
+      margin-top: 20px;
+      margin-left: 12px;
+    }
+  
+  }
+  .login_wrapper{
+    display: flex;
+    height: 100vh;
+  }
+  
+  
+  
+  @media (min-width:992px) and (max-width:1199px){
+    .login_wrapper{
+       .left-login-background{
+        overflow: hidden;
+        svg{
+          width: 100%;
+          transform: scale(1.5);
+        }
+      }
+    }
+  }
+  
+  
+  @media (min-width:320px) and (max-width:767px){
+    .login_wrapper{
+      display: block;
+      .left-login-background{
+       width: 100%;
+       height: auto;
+       svg{
+         width: 100%;
+         height: auto;
+       }
+     }
+     .right-login-background{
+       width: 100%;
+       height: auto;
+       .login-form{
+         position:initial;
+         padding:0px 30px;
+       }
+     }
+     .login-elipse-icon{
+      position: relative;
+      transform: translate(0%, -50%);
+      margin: auto;
+     }
+   }
+  } 

@@ -1,0 +1,26 @@
+.footer__wrapper {
+    display: flex;
+    padding: 50px 70px;
+    margin-top: 20px;
+    background-color: #378080;
+}
+
+.footer__left {
+    flex: 1;
+}
+
+.footer__logo{
+    display: flex;
+}
+
+.footer__logo > img {
+    height: 70px;
+}
+.footer__logo > h1 {
+    font-family: 'Aileron';
+    color: #fff;
+}
+
+.footer__right{
+    flex:1;
+}

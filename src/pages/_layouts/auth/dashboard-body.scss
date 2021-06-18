@@ -1,0 +1,53 @@
+.DashBoardBody {
+    float: right;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 100px;
+    .card-table {
+      width: fit-content;
+    }
+    .col-md-4 .col-md-6 .col-md-8 {
+      padding: 1rem;
+    }
+    .row {
+      padding: 0.5rem;
+    }
+    
+    .category-card {
+      width: 220px;
+      height: 135px;
+      background: #FFFFFF;
+      border: 1px solid #E8E8E8;
+      box-sizing: border-box;
+      border-radius: 10px;
+      text-align: center;
+      border-left: 16px solid cyan;
+    }
+  .category-counter-card {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+  }
+    .category-card .card-body {
+      padding: 0;
+    }
+    .category-card .card-text {
+      font-size: 50px;
+    }
+    .category-card .card-title {
+      margin-bottom: 0;
+      font-size: 18px;
+    }
+    .category-card .card-title h4 {
+      margin-bottom: 4px;
+    }
+    .category-card .card-footer {
+      padding: 0;
+      background-color: white;
+    }
+    .card-body-table thead {
+      border-bottom: 2px solid #E5E5E5;
+      border-top: 2px solid #E5E5E5;
+    }
+  
+  }

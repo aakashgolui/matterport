@@ -1,0 +1,101 @@
+.header__wrapper {
+    /* height: 300px; */
+    background-color: #fafafa;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* -webkit-box-shadow: 0px 3px 10px -2px rgba(148,148,148,1);
+-moz-box-shadow: 0px 3px 10px -2px rgba(148,148,148,1);
+box-shadow: 0px 3px 10px -2px rgba(148,148,148,1); */
+}
+
+.header__wrapper__left {
+    display: flex;
+    margin-left: 20px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.header__wrapper__middle {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__wrapper__right {
+    /* flex:1; */
+    /* width: 200px; */
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+
+.logo {
+    height: 80% !important;
+}
+
+.header__wrapper__right>button {
+    padding: 10px 30px;
+    margin: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 3px 10px -2px rgba(148, 148, 148, 1);
+    -moz-box-shadow: 0px 3px 10px -2px rgba(148, 148, 148, 1);
+    box-shadow: 0px 3px 10px -2px rgba(148, 148, 148, 1);
+}
+
+.button__login {
+    background: rgb(36, 88, 145);
+    background: linear-gradient(90deg, rgba(36, 88, 145, 1) 0%, rgba(69, 160, 179, 1) 100%);
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Aileron';
+    font-size: 15px;
+    transition: 0.5s all;
+}
+
+.button__login:hover {
+    color: #245891;
+    background: rgba(0, 0, 0, 0.022);
+}
+
+.button__signup {
+    font-weight: bold;
+    font-family: 'Aileron';
+    font-size: 15px;
+    color: #245891;
+    background-color: rgba(0, 0, 0, 0.022);
+    transition: 0.5s all;
+}
+
+.button__signup:hover {
+    background: rgb(36, 88, 145);
+    background: linear-gradient(90deg, rgba(36, 88, 145, 1) 0%, rgba(69, 160, 179, 1) 100%);
+    color: #ffffff;
+}
+
+.header__links {
+    background-color: transparent;
+    border: none;
+    font-family: 'Aileron';
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-right: 20px;
+    padding: 5px;
+    transition: all 200ms;
+    text-decoration: none;
+    color: #000;
+}
+
+.header__links:hover {
+    border-bottom: 5px solid steelblue;
+}
+
+.header__wrapper__middle>a.active {
+    border-bottom: 5px solid steelblue;
+}
